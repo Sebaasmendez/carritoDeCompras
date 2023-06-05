@@ -34,7 +34,7 @@ const { user } = storeToRefs(store);
         <span class="visually-hidden">Siguiente</span>
       </button>
     </div>
-    <div id="contacto" class="container-fluid bg-light py-5">
+    <div id="contacto" class="container bg-light py-5">
       <div class="row">
         <!-- Datos de contacto -->
         <div class="col-md-3">
@@ -94,7 +94,7 @@ const { user } = storeToRefs(store);
   </div>
 
   <div v-if="user.role === 'PASEADOR' || user.role === 'CLIENTE'" class="container">
-    <div id="servicios" class="claseServ">
+    <div id="servicios" class="claseServ mt-4">
       <h2 style="text-align: center; color: black;">SERVICIOS</h2>
       <p style="text-align: center; color: black;" v-if="user.role === 'PASEADOR'">COMO PASEADOR PODRAS DISFRUTAR DE LOS
         SIGUENTES SERVICIOS</p>
