@@ -5,9 +5,11 @@ import PieView from "./views/PieView.vue";
 </script>
 
 <template>
-  <MenuView></MenuView>
-  <RouterView />
-  <PieView></PieView>
+  <div class="d-flex flex-column min-vh-100">
+    <MenuView></MenuView>
+    <RouterView />
+    <PieView></PieView>
+  </div>
 </template>
 
 <style></style>
